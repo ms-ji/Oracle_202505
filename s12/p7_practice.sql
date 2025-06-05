@@ -1,0 +1,2 @@
+ALTER TABLE new_emp2
+DROP COLUMN birth;

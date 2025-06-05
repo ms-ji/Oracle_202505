@@ -1,0 +1,1 @@
+TRUNCATE table new_emp2;

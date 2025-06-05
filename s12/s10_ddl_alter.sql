@@ -1,0 +1,2 @@
+ALTER TABLE PC_dept2
+DROP COLUMN location;

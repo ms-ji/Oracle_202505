@@ -1,0 +1,6 @@
+--何葛率 单捞磐 昏力
+--DELETE FROM C_TEST2
+--  WHERE NO = 30;
+
+DELETE FROM C_TEST1
+  WHERE DEPTNO = 30;
