@@ -1,0 +1,2 @@
+SELECT TO_CHAR(SYSTIMESTAMP,'YYYY-MM-DD HH24:MI:SS.FF') AS precise_time 
+  from dual;

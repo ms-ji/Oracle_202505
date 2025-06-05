@@ -1,0 +1,5 @@
+SELECT TO_DATE('2025-05-13','YYYY-MM-DD') AS original_date,
+		ROUND(TO_DATE('2025-05-16','YYYY-MM-DD'),'YYYY') AS rounded_YEAR,
+		ROUND(TO_DATE('2025-07-16','YYYY-MM-DD'),'YYYY') AS rounded_YEAR2
+  FROM dual
+;

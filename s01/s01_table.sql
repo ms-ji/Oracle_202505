@@ -1,0 +1,1 @@
+SELECT tname FROM tab;

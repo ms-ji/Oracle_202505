@@ -1,0 +1,4 @@
+SELECT ROWNUM,ename,
+		CEIL(ROWNUM/3)
+  FROM emp
+;

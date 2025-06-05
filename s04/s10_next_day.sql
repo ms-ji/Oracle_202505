@@ -1,0 +1,2 @@
+SELECT NEXT_DAY(SYSDATE,'»≠ø‰¿œ') AS NEXT_DAY
+  FROM dual;
