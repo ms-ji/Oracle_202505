@@ -1,0 +1,17 @@
+--BEGIN
+--	FOR i IN 1..18 LOOP
+--		INSERT INTO PCWK_ORDER VALUES (PCWK_SEQ.NEXTVAL,'ÀÌ¿µÈñ','APPLE',3);
+--	END LOOP; 	
+--	COMMIT;
+--END;
+--/
+
+INSERT INTO PCWK_ORDER VALUES (PCWK_SEQ.NEXTVAL,'ÀÌ¿µÈñ','APPLE',5);
+INSERT INTO PCWK_ORDER VALUES (PCWK_SEQ.NEXTVAL,'ÀÌ¿µÈñ','APPLE',5);
+
+
+col ORDER_NAME for a7
+col PROD_NAME for a7
+col PROD_QTY for 999
+
+select * from pcwk_order;
