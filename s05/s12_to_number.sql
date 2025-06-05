@@ -1,0 +1,3 @@
+SELECT TO_NUMBER('12345')+1 AS result,
+		TO_NUMBER('1,234,567.89','9,999,999.99') AS result2
+  FROM dual;

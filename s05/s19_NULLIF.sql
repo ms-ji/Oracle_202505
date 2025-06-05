@@ -1,0 +1,3 @@
+SELECT NULLIF(100,100) AS result01,
+		NULLIF(100,90) AS result02
+  FROM dual;

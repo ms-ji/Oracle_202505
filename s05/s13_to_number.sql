@@ -1,0 +1,3 @@
+--SELECT TO_NUMBER('A')
+SELECT ASCII('A')
+FROM dual;
